@@ -1,0 +1,94 @@
+ .attribution {
+    font-size: 11px;
+    text-align: center;
+ }
+
+ .attribution a {
+    color: hsl(228, 45%, 44%);
+ }
+
+ /* Colors*/
+ :root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-Light-gray: hsl(212, 45%, 89%);
+    --color-Grayish-blue: hsl(220, 15%, 55%);
+    --color-Dark-blue: hsl(218, 44%, 22%);
+
+ }
+
+
+ /* Font*/
+ @font-face {
+    font-family: 'Inter', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+
+ }
+
+ /* body {
+    background-color: #DCD7E5;
+   -Font size- (paragraph): 15pxl;
+ } */
+
+ /* .card-container {
+    height: 600PX;
+    width: 400PX;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flexbox;
+    flex-direction: column;
+
+ } */
+
+
+ *,
+ *::before,
+ *::after {
+    box-sizing: border-box;
+
+ }
+
+ body {
+    margin: unset;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    background-color: var(--color-Light-gray);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+ }
+
+ img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.675rem;
+ }
+
+
+ /* card */
+
+ .card-container {
+    background-color: var(--color-white);
+    max-width: 320px;
+    padding: 1.070rem;
+    box-shadow:  0 1.5rem 1.5 rem hsla(0,0%,0%,0.05);
+    text-align: center;
+    margin: 1.070rem;
+    border-radius:0.675rem;
+ }
+
+ h1{
+   font-size: 1.375rem;
+   line-height: 1.275;
+   margin-top: 1.1rem;
+   color: var(--color-Dark-blue);
+ }
+ p{
+   line-height: 1.3;
+   color: var(--color-blue);
+   margin: 1.070rem;
+ }
